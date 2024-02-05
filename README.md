@@ -1,4 +1,8 @@
-# How to use
+# Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse
+
+This repo contains authors' implementations of the paper [Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse](https://arxiv.org/pdf/2305.18443).
+
+## How to use
 
 Reproduce our results on OpenAI Gym in the submission by calling:
 
