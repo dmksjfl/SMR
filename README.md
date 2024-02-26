@@ -1,6 +1,6 @@
 # Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse
 
-This repo contains authors' implementations of the paper [Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse](https://arxiv.org/pdf/2305.18443).
+This repo contains authors' implementation of the paper [Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse](https://arxiv.org/pdf/2305.18443) accepted by *Information Sciences*.
 
 ## How to use
 
@@ -17,3 +17,15 @@ python main_dmc.py --policy SAC --env cheetah-run --seed 4 --dir ./logs/SAC-SMR-
 ```
 
 For results of TQC and DrQ-v2, please refer to their official implementation. It is very simple to incorporate SMR with them.
+
+## Citations
+
+If you find our repo useful, please consider citing the paper
+```
+@article{lyu2024offpolicyrlcanbe,
+ title={Off-Policy RL Algorithms Can be Sample-Efficient for Continuous Control via Sample Multiple Reuse},
+ author={Jiafei Lyu and Le Wan and Zongqing Lu and Xiu Li},
+ journal={Information Sciences},
+ year={2024},
+}
+```
